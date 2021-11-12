@@ -48,6 +48,10 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
  
 /* Hero */
 
@@ -98,7 +102,28 @@ body {
 .section-projects-h2 {
     color: var(--second-text-color);
 }
- 
+
+/* Buttons */
+
+.button {
+    color: var(--second-button-color);
+    background-color: var(--second-background-color);
+    font-size: 16px;
+    display: inline-block;
+}
+
+.button-primary {
+    color: var(--first-button-color);
+    background-color: var(--accent-color);
+    font-size: 16px;   
+}
+
+.button-hero {
+    color: var(--first-button-color);
+    background-color: var(--accent-color);
+    font-size: 16px;
+}
+
 /* Footer */
  
 .footer {
@@ -110,5 +135,10 @@ body {
 }
  
 .footer-logo-word2 {
+    color: var(--white-color);
+}
+
+.footer-list {
+    list-style: none;
     color: var(--white-color);
 }
