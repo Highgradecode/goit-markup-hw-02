@@ -37,7 +37,7 @@ body {
     color: var(--black-color);
 }
  
-/* Site nav */
+/* Header */
  
 .site-nav link {
     color: var(--header-text-color);
@@ -50,6 +50,17 @@ body {
 }
 
 .site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contact-list {
+    color: var(--first-text-color);
+    list-style: none;
+}
+
+.contact-list .link:hover,
+
+.contact-list .link:focus {
     color: var(--accent-color);
 }
  
