@@ -49,17 +49,8 @@ body {
     color: var(--accent-color);
 }
  
-.auth-nav link {
-    color: var(--header-text-color);
-}
- 
-.auth-nav .link:hover,
- 
-.auth-nav .link:focus {
-    color: var(--accent-color);
- 
 /* Hero */
- 
+
 .hero-title {
     color: var(--main-title-color);
 }
@@ -67,7 +58,7 @@ body {
 .hero {
     background-color: var(--hero-color);
 }
- 
+
 /* Sections */
  
 .section-title {
